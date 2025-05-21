@@ -1,7 +1,4 @@
 #!/bin/bash
-name="Narek"
-x=2
-y=3
-echo "Hello $name"
-new=$(($x + $y))
-echo $new
+echo -n "what is your name? "
+read name
+echo
