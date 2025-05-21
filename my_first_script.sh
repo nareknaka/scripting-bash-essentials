@@ -3,5 +3,5 @@ name="Narek"
 x=2
 y=3
 echo "Hello $name"
-new=$x+$y
+new=$(($x + $y))
 echo $new
