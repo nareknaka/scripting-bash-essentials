@@ -34,8 +34,8 @@
 
 #!/bin/bash
 
-name="Narek_Grigoryan" # variable with your name
-file="example_file.txt" # variable with file name
+echo 'file=example_file.txt' > vars.html # create vars file with FILE variable
+echo 'name=Narek_Grigoryan' >> vars.html # add NAME variable to vars file
 mkdir -p "$name" # create directory with your name
 touch "$name/$file" # create file in the directory
 ls ~ # list contents of home directory
