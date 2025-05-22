@@ -38,4 +38,6 @@ name="Narek_Grigoryan" # variable with your name
 file="example_file.txt" # variable with file name
 mkdir -p "$name" # create directory with your name
 touch "$name/$file" # create file in the directory
+ls ~ # list contents of home directory
+ls "$name" # list contents of the created directory
 
