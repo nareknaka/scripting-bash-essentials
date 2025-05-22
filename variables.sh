@@ -32,3 +32,8 @@
 # https://devhints.io/bash 
 
 
+#!/bin/bash
+
+name="Narek_Grigoryan" # variable with your name
+file="example_file.txt" # variable with file name
+
