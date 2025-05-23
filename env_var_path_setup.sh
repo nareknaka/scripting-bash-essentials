@@ -33,3 +33,11 @@
 #!/bin/bash
 # Create homework folder in user's home directory
 mkdir -p ~/homework
+
+# Create a script in the homework folder
+cat <<EOF > ~/homework/my_script.sh
+#!/bin/bash
+
+export SURNAME="Grigoryan"             # Set the SURNAME environment variable    
+echo $SURNAME                          # Print the value of the SURNAME variable
+EOF
