@@ -30,3 +30,6 @@
 # https://devhints.io/bash
 
 
+#!/bin/bash
+# Create homework folder in user's home directory
+mkdir -p ~/homework
