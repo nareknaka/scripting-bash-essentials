@@ -41,3 +41,13 @@ cat <<EOF > ~/homework/my_script.sh
 export SURNAME="Grigoryan"             # Set the SURNAME environment variable    
 echo $SURNAME                          # Print the value of the SURNAME variable
 EOF
+
+chmod +x ~/homework/my_script.sh # Make the script executable
+export PATH=$HOME/homework:$PATH # Add homework folder to PATH
+
+# Verify that the script can be run by typing only its name
+my_script.sh
+
+#first run bash env_var_path_setup.sh
+# then run my_script.sh
+# it should print "Grigoryan"
