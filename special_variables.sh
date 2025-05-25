@@ -47,3 +47,12 @@ echo "Number of arguments: $#"
 # Print 2nd and 4th argument   
 echo "2nd argument: $2"
 echo "4th argument: $4"
+# Print the exit code of -eq operation on 1st and 2nd arguments
+if [[ $1 -eq $2 ]]; then
+    echo "Exit code of -eq operation: 0"
+else
+    echo "Exit code of -eq operation: 1"
+fi
+
+
+
