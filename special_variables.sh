@@ -36,7 +36,7 @@
 # https://tldp.org/LDP/abs/html/internalvariables.html
 # https://devhints.io/bash
 
-!/bin/bash
+#!/bin/bash
 
 echo "Script name: $0"
 echo "All arguments: $@"
