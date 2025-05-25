@@ -39,8 +39,11 @@
 #!/bin/bash
 
 # Print the name of the script
-echo "Acript name: $0"
+echo "Script name: $0"
 # Print all arguments
 echo "All arguments: $@"
 # Print the number of arguments passed to the script
 echo "Number of arguments: $#"
+# Print 2nd and 4th argument   
+echo "2nd argument: $2"
+echo "4th argument: $4"
