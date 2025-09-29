@@ -30,7 +30,7 @@
 
 # second run: Even
 
-# - my_script.sh script outputs:
+# - arg_logic.sh script outputs:
 
 # hello
 # Invalid number of arguments
