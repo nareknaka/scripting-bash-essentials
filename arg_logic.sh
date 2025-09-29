@@ -23,8 +23,17 @@
 # - arg_logic.sh script outputs:
 
 # hello
-# Invalid number of arguments
+# world
 # lie
 # Invalid number of arguments
 
 
+count=$# #count is the number of arguments
+
+if [ $count -lt 2 ]; then  #if there are less than 2 arguments
+    echo "$@"
+elif [ $count -lt 4 ]; then
+    echo "${!#}"  #output only the last argument
+else
+    echo "Invalid number of arguments"
+fi
