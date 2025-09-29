@@ -37,3 +37,12 @@
 # lie
 # Invalid number of arguments
 
+word=$1 #word is the first argument
+len=${#word} #len is the length of the first argument
+remainder=$((len % 2)) #remainder is the remainder of len divided by 2
+
+if [ $remainder -eq 0 ]; then
+    echo "Even"
+else
+    echo "Odd"
+fi
