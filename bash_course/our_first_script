@@ -1,0 +1,14 @@
+#/bin/bash 
+
+#Author: Narek Grigoryan
+#Date Created: 10/12/2025
+#Last Modified: 10/12/2025
+
+#Description
+#Prints "This is my first script" to the terminal
+#Usage
+#our_first_script
+
+
+echo "This is my first script "
+exit 0 
